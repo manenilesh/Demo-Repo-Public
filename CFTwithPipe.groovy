@@ -32,7 +32,7 @@ pipeline
                  echo 'Hello'
             }
         }
-         stage('Create CFT')
+         stage('Create CFT..')
         {
             steps
             {
