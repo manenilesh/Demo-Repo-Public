@@ -49,4 +49,5 @@ Resources:
            - Ref:  "MySecurityGroup"
           SubnetId: 
              Ref: "MySubnet"
-      
+  
+  
