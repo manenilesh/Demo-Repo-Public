@@ -35,7 +35,7 @@ pipeline
             {
               steps
               {
-                  sh '''cd /home/ubuntu/workspace/Mission-Placement/handtime-html
+                  sh '''cd /home/ubuntu/workspace/Master-Prokject/handtime-html
                   sudo mv * /var/www/html/'''
               }
             }
