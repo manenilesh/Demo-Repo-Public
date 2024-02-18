@@ -7,7 +7,7 @@ pipeline {
                 git 'https://github.com/swapnibrad/studentapp-ui.git'
                   }
              }
-        stage('build') {
+        stage('build & install maven') {
             steps {
                 sh '''
                 echo "installing maven package for build"
