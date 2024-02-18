@@ -31,7 +31,7 @@ pipeline
                 sudo unzip handtime.zip'''
               }
             }
-            stage ('Setup Configuration')
+            stage ('Setup Configurations')
             {
               steps
               {
