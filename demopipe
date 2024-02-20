@@ -3,7 +3,7 @@ pipeline {
         label 'n1' 
         }
     stages {
-        stage('git commit') {
+        stage('git commit ') {
             steps {
                 echo 'clone repositery consist of build packages'
                 git 'https://github.com/swapnibrad/studentapp-ui.git'
